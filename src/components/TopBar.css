@@ -1,0 +1,11 @@
+.TopBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TopBar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.15rem;
+}
