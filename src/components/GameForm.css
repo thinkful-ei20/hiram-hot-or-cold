@@ -37,3 +37,7 @@
   background: #e64c65;
   color: white;
 }
+
+.GameForm .placeholder {
+  margin: 4rem 0;
+}

@@ -1,10 +1,10 @@
-import React from "react"
-import "./Attempts.css"
+import React from 'react'
+import './Attempts.css'
 
-export default function Attempts(props) {
+export default function Attempts({ amount }) {
   return (
     <div className="Attempts">
-      Guess #<span>0</span>!
+      Guess #<span>{amount}</span>!
     </div>
   )
 }

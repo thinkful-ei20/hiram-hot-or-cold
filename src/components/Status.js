@@ -1,10 +1,10 @@
-import React from "react"
-import "./Status.css"
+import React from 'react'
+import './Status.css'
 
-export default function Status(props) {
+export default function Status({ statusText }) {
   return (
     <div className="Status">
-      <h2>Make your Guess!</h2>
+      <h2>{statusText}</h2>
     </div>
   )
 }
