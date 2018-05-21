@@ -6,20 +6,13 @@ import GameForm from './GameForm'
 import Attempts from './Attempts'
 import Numbers from './Numbers'
 
-function Game({
-  handleChange,
-  handleSubmit,
-  guesses,
-  input,
-  gameOver,
-  statusText
-}) {
+function Game() {
   return (
     <div className="Game">
-      <Status {...{ statusText }} />
-      <GameForm {...{ handleChange, handleSubmit, input, gameOver }} />
-      <Attempts amount={guesses.length} />
-      <Numbers {...{ guesses }} />
+      <Status />
+      <GameForm />
+      <Attempts />
+      <Numbers />
     </div>
   )
 }

@@ -1,11 +1,11 @@
-import React from "react";
-import "./TopBar.css";
+import React from 'react'
+import './TopBar.css'
 
-export default function TopBar(props) {
+export default function TopBar() {
   return (
     <div className="TopBar">
-      <a href="">WHAT?</a>
+      <a>WHAT?</a>
       <a href="">+ NEW GAME</a>
     </div>
-  );
+  )
 }

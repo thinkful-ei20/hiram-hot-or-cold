@@ -1,5 +1,5 @@
 export const SET_STATUS = 'SET_STATUS'
-export const setStatus = (text, won) => ({
+export const setStatus = ({ text, won }) => ({
   type: SET_STATUS,
   text,
   won,

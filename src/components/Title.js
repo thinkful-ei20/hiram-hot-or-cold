@@ -1,6 +1,6 @@
-import React from "react"
-import "./Title.css"
+import React from 'react'
+import './Title.css'
 
-export default function Title(props) {
+export default function Title() {
   return <h1 className="Title">HOT or COLD</h1>
 }
